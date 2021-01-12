@@ -2,7 +2,7 @@ local arr={}
 
 arr.background_color = 0x000040
 
-function defaultGPU:print_default(W,H)
+function arr:print_default(W,H)
 gpu.setBackground(arr.background_color)
 gpu.setForeground(0xFFFFFF)
 gpu.fill(1,1,W,1,'=') --горизонтальные черты
