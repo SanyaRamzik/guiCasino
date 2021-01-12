@@ -35,4 +35,4 @@ gpu.set(120,16,'Улучш. нано жилет')
 gpu.set(120,18,'Солнечная панель 2ур')
     return
 end
-return defaultGPU
+return arr
